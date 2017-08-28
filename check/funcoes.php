@@ -29,17 +29,85 @@
 
 		function Horarios(){
 
-			$dropdown = ' <select >
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							</select>';
+			$dropdown = '
+		
+		<div>
+			<select>
+				<option>Here is the unstyled select box</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<hr>
+		
+		<div class="styled-select slate">
+			<select>
+				<option>Here is the first option</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<hr>
+		
+		<div class="styled-select black rounded">
+			<select>
+				<option>Here is the first option</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<div class="styled-select green rounded">
+			<select>
+				<option>Here is the first option</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<div class="styled-select blue semi-square">
+			<select>
+				<option>Here is the first option</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<div class="styled-select yellow rounded">
+			<select>
+				<option>Here is the first option</option>
+				<option>The second option</option>
+				<option>The third option</option>
+			</select>
+		</div>
+		
+		<hr>
+		
+		<div id="mainselection">
+			<select>
+				<option>Select an Option</option>
+				<option>Option 1</option>
+				<option>Option 2</option>
+			</select>
+		</div>
+		
+		<hr>
+		
+		<select id="soflow">
+			<option>Select an Option</option>
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</select>
+		
+		<select id="soflow-color">
+			<option>Select an Option</option>
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</select>';
 
 			echo $dropdown;
-
-
-
 		}
 
 		function MontaMenu()
