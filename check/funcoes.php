@@ -19,7 +19,7 @@
 
 		function MontaJs(){
 
-			$js = array('<script src="/check/assets/js/bootstrap.min.js"></script>');
+			$js = array('<script src="/check/assets/js/funcoes.js"></script>');
 
 			foreach ($js as $link => $value) {
 				echo $value."\n\t";		
@@ -29,12 +29,14 @@
 
 		function Horarios(){
 
-			$dropdown = ' <select >
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							  <option value="10:00">10:00</option>
-							</select>';
+			$dropdown = '
+			<div style="background-color:#282827;height:70px; text-align:center;">
+			<br/>
+			<div class="select_join" style="margin-left:150px">
+				<select name="txtCountry" id=comboBox>
+				</select>
+			</div>
+		</div>';
 
 			echo $dropdown;
 
